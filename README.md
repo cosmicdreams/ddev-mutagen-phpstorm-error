@@ -47,7 +47,7 @@ Process finished with exit code 1
 ### 4. Disable Mutagen
 ```bash
 ddev config --mutagen-enabled=false
-ddev restart
+ddev start
 ```
 
 ### 5. Run the same tests in PhpStorm, again
