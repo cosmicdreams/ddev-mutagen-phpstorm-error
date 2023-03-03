@@ -27,7 +27,7 @@ ddev exec -d /var/www/html/web "../vendor/bin/phpunit -v -c ./core/phpunit.xml.d
 ```
 
 ### 3. Run the same tests in PhpStorm
-Navigate to core/modules/system/tests/src/Unit/Routing/AdminRouteSubscriberTest.php and run the test by click on the test icon next to either a method that isn't setup or the class.
+Navigate to core/modules/system/tests/src/Unit/Routing/AdminRouteSubscriberTest.php and run the test by click on the test icon next to either a method or class.
 ![Run test in phpstorm.webp](doc-assets%2FRun%20test%20in%20phpstorm.webp)
 
 The error you will receive will be: note I replaced my user directory with `<user-dir>`
